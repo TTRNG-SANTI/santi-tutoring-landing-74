@@ -13,7 +13,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'DM Sans', 'system-ui', 'sans-serif'],
+        heading: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        "hero-bg": "hsl(var(--hero-bg))",
+        "section-alt": "hsl(var(--section-alt-bg))",
+        "trust-badge": "hsl(var(--trust-badge-bg))",
+        "trust-badge-text": "hsl(var(--trust-badge-text))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
